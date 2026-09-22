@@ -1,1 +1,42 @@
+/* general style for page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a; /* Dark background */
+    color: #f8fafc;
+    margin: 0;
+    padding: 20px;
+}
 
+/* header & button */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #2f9fd0;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* Terminal Container */
+.terminal-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    background-color: #000000;
+}
+
+/* usable terminal for pyscript */
+py-terminal {
+    display: block;
+    height: 450px;
+    width: 100%;
+}
