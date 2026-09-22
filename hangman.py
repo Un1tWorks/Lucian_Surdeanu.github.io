@@ -58,7 +58,7 @@ while(chances>0):
     if xHidden == xword:
         break
 if xHidden == xword:
-    print(f"you guess right! :D")
+    print(f"you guessed right! :D")
 else:
-    print("you didn't guess :/")
+    print("you guessed wrong :/")
     print(f"the word was {word}")
